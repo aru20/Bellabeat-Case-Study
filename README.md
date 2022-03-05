@@ -56,3 +56,58 @@ This data was collected in 2016, which means it is currently outdated and may no
 As stated before, Amazon Mechanical Murk created the dataset, but we have no information on whether this is a credible source.
 
 The data integrity and credibility is clearly insufficient to provide reliable and comprehensive insights to Bellabeat. Therefore, the following analysis can only provide first hints and directions which should be verified through an analysis of a larger and much more reliable dataset.
+
+
+## Phases 3: Process
+Here, I will process the data by cleaning and ensuring that it is correct, relevant, complete and free of error and outlier by performing:
+* Explore and observe data
+* Check for and treat missing or null values
+* Transform data — format data type
+* Perform preliminary statistical analysis
+
+## Phase 4: Analyze
+I will now check for statistical summary of the variables in each dataframe. After checking the Mean, standard deviation,min,max and percentile.
+
+
+* Sedentary average around 991 minutes, or 16 hours.
+* The users on this dataset are mostly lightly active.
+* Users seem to be getting on average roughly 7 hours of sleep, and they mostly sleep one time per day on average.
+* On average, these users take 7637 steps per day, which is lower than what CDC recommends on one of their research.
+
+## Phase 5: Share
+### Visualisations
+Here, I will create visualisations to find relationships between the variables.We will first look at the relationship between the total number of steps and calories burned.
+This graph shows a positive correlation between the total amount of steps and the calories burned - the larger the total amount of steps, the more calories burned.
+
+Let’s check the relationship between TotalSteps and Sedentary Minutes.
+
+Fig 2: TotalSteps vs. Sedentary Minutes
+This graph shows a negative correlation between total steps and sedentary minutes - the lower the total steps, the higher the sedentary minutes.
+
+Let’s see what the relationships are like between the active minutes (very, fairly, and lightly) and the number of calories burned.
+
+Fig 3: Active minutes vs. calories burned
+From these graphs, we can clearly see that there are positive relationships between very active minutes, and lightly active minutes’ against the calories burned. However, there seems to be a negative relationship between fairly active minutes and the number of calories burned. We can also see that more calories were burned with people who did lighter activities compared to those who were very and/or fairly active.
+
+Next, we will look at the relationship between the total minutes asleep and total minutes in bed
+
+As you can see from the graph above, there is a positive correlation between the total minutes asleep and the amount of time spent in bed. Using this data, Bellabeat can use an app that notifies its customers about when it would be the right time to go to bed so that they can get an adequate amount of sleep.
+
+## Phase 6: Act
+### Recommendations for Bellabeat Marketing Strategy:
+
+* Based on the activity levels and amount of calories burned, users appear to burn more calories with more exercise. Therefore, Bellabeat should encourage users to exercise more through reminders. They could also offer app incentives, such as give users app credits for every 1000 steps, which can then be used to redeem prizes or vouchers.
+
+* The data also shows many people lead either a lightly active or sedentary lifestyle, which may be due to the nature of their work or the lack of time to exercise. Bellabeat could have a section on their app for short workout videos or short exercises (for example, 10 minute videos) that their customers can follow along to if they don’t necessarily want to exercise alone.
+
+* To encourage better sleeping habits, Bellabeat could incorporate reminders through an app that notifies users of the best time to go to sleep and wake up in order to feel refreshed in the morning and get adequate amount of sleep. The app could also automatically turn on ‘do not disturb’ mode and turn on ‘night mode’ on the customers’ phones to signal the user that they are not disturbed by messages or phone calls from family and friends.
+
+### Recommendations based on the limitations of the dataset:
+
+* A larger sample size in order to improve the statistical significance of the analysis.
+
+* Collect a longer period of tracking data, ideally for 6 months to a year, to account for behavioural changes due to the changes in seasons.
+
+* The need to obtain current data in order to better reflect current consumer behaviours and/or trends in smart device usage.
+
+* Collect data from internal sources (if possible) and/or from primary/secondary data sources to increase credibility and reliability of the
